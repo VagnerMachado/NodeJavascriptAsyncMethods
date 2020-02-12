@@ -23,7 +23,7 @@ Vagner++
 
 //variables used for the task.
 const fs = require("fs");
-let input = 57; //i.e input = 57 then files run from 01 to 57.
+let input = 87; //i.e input = 57 then files run from 01 to 57.
 let folder = "./output/";
 let fileNumber = 1;
 let partialFileName = "-output.txt";

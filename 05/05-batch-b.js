@@ -47,7 +47,7 @@ const output_dir = "./output/";
 const input_files = fs.readdirSync(input_dir);
 
 //some variables;
-let input = 76;   // i.e input = 57 then files run from 1 to 57.
+let input = 61;   // i.e input = 57 then files run from 1 to 57.
 let chunk = 5;    // a number less than input, files are written in chunk sizes
 let fileNumber = 1;
 let partialFileName = "-output.txt";
@@ -62,7 +62,7 @@ let outputFileIndex = 1;
 //I am assuming the folder for output is there, otherwise please uncomment line below
 //fs.mkdir("./output", {recursive: false}, function(err) { });
 
-//passData method with data for specific files to write to.
+//createFileWithData method with data for specific files to write to.
 // They will be used as input for the task.
 const createFileWithData = function(path, file, data, number)
 {

@@ -51,11 +51,11 @@ let after_readingInput = function(err, data)
                         console.log("Failed to resolve domain ", buff.toString("utf8"));
                    else
                    {
-                        fs.writeFile(output_file, data, function(err)
-                    {
-                        if(err)
-                            console.log("Error writing ", data, " to file ", output_file);
-                    });
+                            fs.writeFile(output_file, data, function(err)
+                        {
+                            if(err)
+                                console.log("Error writing ", data, " to file ", output_file);
+                        });
                    }
                });
             

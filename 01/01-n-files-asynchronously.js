@@ -32,7 +32,7 @@ id decided to implement the following algorithm:
 */
 //some variables;
 const fs = require("fs");
-let input = 55; //i.e input = 53 then files run from 01 to 53.
+let input = 39; //i.e input = 53 then files run from 01 to 53.
 let folder = "./output/";
 let fileNumber = 1;
 let partialFileName = "-output.txt";
