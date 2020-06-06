@@ -5,7 +5,7 @@
 
 Student ID: 23651127
 
-Comment (Required): The tasks fo this process are
+Comment (Required): The tasks for this process are
 done async'ly because fs.writeFile is called while other fs.writeFile
 are still in Thread pool. Whichever writeFile call ends, is added to call back queue
 which allows them to process call back menthod once call stack is empty.
@@ -32,7 +32,7 @@ id decided to implement the following algorithm:
 */
 //some variables;
 const fs = require("fs");
-let input = 39; //i.e input = 53 then files run from 01 to 53.
+let input = 100; //i.e input = 53 then files run from 01 to 53.
 let folder = "./output/";
 let fileNumber = 1;
 let partialFileName = "-output.txt";

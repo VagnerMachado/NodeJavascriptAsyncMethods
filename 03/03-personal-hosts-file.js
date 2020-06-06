@@ -44,7 +44,7 @@ let result_output = "";
 //fs.mkdir("./output", {recursive: false}, function(err) { });
 
 //method that initiates the dns.resolve recursion
-arrayOfDomains = function(fullArray)
+const arrayOfDomains = function(fullArray)
 {
     let after_resolution = function(err, records)
     {  
